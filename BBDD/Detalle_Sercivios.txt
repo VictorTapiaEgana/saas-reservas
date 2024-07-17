@@ -1,0 +1,27 @@
+BELLEZA
+Peluquería
+Salones de belleza
+Manucure y pedicure
+Baberías
+
+ESTETICA
+Centros de Estética
+Spas
+
+BIENESTAR
+Centros deportivos
+Centros de crossfit
+Estudio de pilates
+Estudios de yoga
+Gimnasios
+
+
+SALUD
+Centros médicos
+Clínicas
+Centros de fisioterapia
+Kinesiólogos
+Psicólogos
+Consulta médica
+Medicina alternativa
+Centros de podología

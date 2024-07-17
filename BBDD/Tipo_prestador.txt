@@ -1,0 +1,7 @@
+esteticista
+psicologo
+trumatologo
+barbero
+terapeuta
+entrenador
+
