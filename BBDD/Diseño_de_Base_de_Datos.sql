@@ -71,6 +71,20 @@ CREATE TABLE Tipo_Prestador (
     PRIMARY KEY (id_tipoprestador)  
 );
 
+CREATE TABLE users (	
+    id  int auto_increment primary key,
+    nombre varchar(60),
+    pass varchar (255)
+);
+
+ALTER TABLE Empresas
+ADD COLUMN imagen VARCHAR(200);
+
+ALTER TABLE Prestadores
+ADD COLUMN imagen VARCHAR(200);
+
+INSERT INTO users ( nombre,pass) VALUES ('admin','admin123');
+
 INSERT INTO DiasSemana (nombre) VALUES 
 ('Lunes'), 
 ('Martes'), 
@@ -145,5 +159,4 @@ INSERT INTO Horarios (id_horario, id_prestador, id_dia, hora_inicio, hora_fin) V
 (8, 8, 2, '09:00:00', '17:00:00'),
 (9, 9, 3, '10:00:00', '18:00:00'),
 (10, 10, 4, '08:00:00', '16:00:00');
-
 

@@ -3,7 +3,7 @@
 ##  W.I.P
 
 ```
-    React + Node + Postgres
+    React + Node + MYSQL
 ```
 
 

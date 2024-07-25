@@ -7,7 +7,7 @@ const getUsers = async() =>{
     try {
 
         connection = await pool.getConnection();
-        const [results] = await connection.query('SELECT * FROM usuarios');
+        const [results] = await connection.query('SELECT * FROM users');
         
         if (Number(results.length) > 0){
             
@@ -21,7 +21,7 @@ const getUsers = async() =>{
 
     } catch (error) {
 
-        console.error(`X Error al conectar a la base de datos : ${error.message}`);        
+        console.error(`X Error al conectar a la base de datos : ${error.message}`);                
 
     } finally {
 
